@@ -4,9 +4,9 @@
 
 
 /**
- * main - generates a random value
+ * main - generates a random value and determines whether it is positive, negative or zero
  *
- * Return: 0
+ * Return: Always 0.
  *
  */
 
