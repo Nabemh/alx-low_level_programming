@@ -10,10 +10,7 @@
 
 int main(void)
 {
-	int num1 = 89;
-	int num2 = 9;
-
-	int n = num1 + num2;
-	_putchar("%d\n", n);
-	return (0);
+	int num_1 = 89;
+	int num_2 = 9;
+	return (num_1 + num_2);
 }
