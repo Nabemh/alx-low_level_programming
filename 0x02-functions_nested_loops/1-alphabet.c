@@ -1,7 +1,7 @@
 #include "main.h"
-
 /**
- * main: Prints the alphabet in lowcase, followed by a new line.
+ * main:Entry point
+ * Description: Prints the alphabet from a to z.
  */
 
 void print_alphabet(void)
@@ -9,7 +9,8 @@ void print_alphabet(void)
 	char alphabet;
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	{
 		_putchar(alphabet);
-
+	}
 	_putchar('\n');
 }

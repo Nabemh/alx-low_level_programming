@@ -1,13 +1,9 @@
 #include "main.h"
-
 /*
- * 
- * main: Prints _putchar
- *
+ * main: Entry point
+ *Description: Prints chars to standard output
  * Return: Always 0.
- *
  */
-
 int main(void)
 
 {
@@ -21,6 +17,4 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 	return (0);
-
-
 }
