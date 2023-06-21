@@ -1,1 +1,1 @@
-0x02-functions_nested_loops project
+0x02-functions_nested_loops project trials
