@@ -14,14 +14,14 @@ char *_strcpy(char *dest, char *src)
 
 	len = 0;
 
-	while (scr[len] != '\0')
+	while (src[len] != '\0')
 	{
 		len++;
 	}
 
 	for (d = 0; d < len; d++)
 	{
-		dest[d] = scr[i];
+		dest[d] = src[d];
 	}
 	dest[d] = '\0';
 	return (dest);
