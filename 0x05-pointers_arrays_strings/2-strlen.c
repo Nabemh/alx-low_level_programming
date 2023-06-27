@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * main - Returns the length of a string.
- *
+ * _strlen - Returns the length of a string.
+ *@s: char with memory location
+
  * Return: returns len.
  *
  */
