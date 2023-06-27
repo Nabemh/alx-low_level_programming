@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _strlen - Returns the length of a string.
- *@s: char with memory location
-
- * Return: returns len.
+ * _strlen - returns the length of a string.
+ * @s: Varaible of char type.
  *
+ * Return: Returns len.
  */
 
 int _strlen(char *s)
