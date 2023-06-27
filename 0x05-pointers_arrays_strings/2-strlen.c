@@ -4,7 +4,7 @@
  * main - Returns the length of a string.
  *
  * Return: returns len.
- * 
+ *
  */
 
 int _strlen(char *s)
