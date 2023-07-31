@@ -1,34 +1,24 @@
 #include "lists.h"
 
 /**
- * add_nodeint_end - adds a node at the end of a linked list
- * @head: pointer to the first element in the list
- * @n: data to insert in the new element
+ * pop_listint - deletes the head node of a linked list
+ * @head: pointer to the first element in the linked list
  *
- * Return: pointer to the new node, or NULL if it fails
+ * Return: the data inside the elements that was deleted,
+ * or 0 if the list is empty
  */
-listint_t *add_nodeint_end(listint_t **head, const int n)
+int pop_listint(listint_t **head)
 {
-	listint_t *new;
-	listint_t *temp = *head;
+	listint_t *temp;
+	int num;
 
-	new = malloc(sizeof(listint_t));
-	if (!new)
-		return (NULL);
+	if (!head || !*head)
+		return (0);
 
-	new->n = n;
-	new->next = NULL;
+	num = (*head)->n;
+	temp = (*head)->next;
+	free(*head);
+	*head = temp;
 
-	if (*head == NULL)
-	{
-		*head = new;
-		return (new);
-	}
-
-	while (temp->next)
-		temp = temp->next;
-
-	temp->next = new;
-
-	return (new);
+	return (num);
 }
