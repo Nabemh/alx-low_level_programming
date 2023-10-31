@@ -28,10 +28,9 @@ char *create_array(unsigned int size, char c)
 
 	while (n < size)
 	{
-		*ptr[n] = c;
+		ptr[n] = c;
 		n++;
 	}
-
 
 	return (ptr);
 }
