@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * add_dnodeint - adds a new noe at the end of list
+ * add_dnodeint_end - adds a new noe at the end of list
  * @head: double pointer to beginning of list
  * @n: value to add to node
  *
